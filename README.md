@@ -12,4 +12,10 @@ series: {
 
 Look for [canvas setLineDash documentation](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D.setLineDash) for advanced patterns and browser support
 
+## Bower
+
+```sh
+bower install -S flot-dashedlines
+```
+
 License: MIT
