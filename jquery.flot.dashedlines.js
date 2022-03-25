@@ -2,12 +2,13 @@
   /**
    *  Flot dashed lines plugin
    *
-   *  Usage: 
+   *  Usage:
    *    series: {
    *      lines: {
    *        dashed: [5, 15]
    *      }
    *    }
+   *
    *  Look for canvas setLineDash documentation for advanced patterns
    *
    *  License: MIT
@@ -26,11 +27,11 @@
   $.plot.plugins.push({
     init: init,
     options: {
-        series: {
-            lines: {
-                dashed: false
-            }
+      series: {
+        lines: {
+          dashed: false
         }
+      }
     },
     name: 'dashes',
     version: '1.0'
