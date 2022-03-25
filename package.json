@@ -1,5 +1,5 @@
 {
-  "name": "jquery.flot.dashedlines",
+  "name": "jquery-flot-dashedlines",
   "main": "jquery.flot.dashedlines.js",
   "version": "1.0.0",
   "homepage": "https://github.com/lukaw3d/jquery.flot.dashedlines",
@@ -8,16 +8,10 @@
   ],
   "description": "Simple dashed lines plugin for Flot",
   "keywords": [
+    "jquery",
     "flot",
     "plugin",
     "dashed"
   ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "license": "MIT"
 }
