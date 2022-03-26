@@ -1,3 +1,4 @@
+// @ts-check
 (function ($) {
   /**
    *  Flot dashed lines plugin
@@ -15,6 +16,9 @@
    */
   'use strict';
 
+  /**
+   * @param {jquery.flot.plotOptions} plot
+   */
   function init(plot) {
     plot.hooks.drawSeries.push(function (plot, ctx, series) {
       ctx.setLineDash && ctx.setLineDash(series.lines.dashed || []);
@@ -33,8 +37,8 @@
         }
       }
     },
-    name: 'dashes',
-    version: '1.0'
+    name: 'jquery-flot-dashedlines',
+    version: '1.1.0'
   });
 
 })(jQuery);
